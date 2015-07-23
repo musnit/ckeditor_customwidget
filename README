@@ -1,0 +1,7 @@
+CKEditor custom widget plugin (Tested on CKEditor 4.4.3)
+
+This plugin requires:
+  CKEditor Widget Plugin (4.4.3) - to get this working you need to download it and download the CKEditor lineutils plugin, and add them to your plugins folder and config file.
+
+Usage:
+  Add the whole customwidget folder to your CKEditor plugins directory and CKEditor config file.
