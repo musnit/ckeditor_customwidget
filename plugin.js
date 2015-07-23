@@ -16,7 +16,7 @@ CKEDITOR.plugins.add( 'customwidget', {
 
       requiredContent: 'div(custom-widget)',
 
-      template: '<div class="custom-widget"></div>',
+      template: '<div class="custom-widget">Your custom widget will appear here</div>',
 
       upcast: function( element ) {
         return element.name == 'div' && element.hasClass( 'custom-widget' );
@@ -27,7 +27,7 @@ CKEDITOR.plugins.add( 'customwidget', {
       data: function(){
 
       },
-      dialog: 'custom-widget'
+      dialog: 'customwidget'
     });
 
     editor.ui.addButton( 'CustomWidget', {
