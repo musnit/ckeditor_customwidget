@@ -1,5 +1,0 @@
-CustomWidget = {};
-
-$( document ).ready(function() {
-});
-

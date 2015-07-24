@@ -1,0 +1,13 @@
+.customwidget-escapedjs,
+.customwidget-rawjs-container,
+.build-thirdparty-placeholder {
+  display: none;
+}
+
+.cke_widget_element .build-thirdparty-placeholder {
+  display: inherit !important;
+}
+
+.cke_widget_element .customwidget-html {
+  display: none;
+}
